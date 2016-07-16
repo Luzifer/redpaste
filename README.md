@@ -27,7 +27,7 @@ bind C-y run "tmux save-buffer - | redpaste set"
 - Enter selection mode: <kbd>ctrl</kbd>+<kbd>b</kbd>, then <kbd>[</kbd>
 - Move to the part your want to copy, start selecting: <kbd>v</kbd>
 - Select everything you need to copy and copy the selection to the buffer: <kbd>y</kbd>
-- Execute the sniplet above: <kbd>ctrl</kbd>+</kbd>b, then <kbd>ctrl</kbd>+<kbd>y</kbd>
+- Execute the sniplet above: <kbd>ctrl</kbd>+<kbd>b</kbd>, then <kbd>ctrl</kbd>+<kbd>y</kbd>
 
 ### Use to fetch the data to your local clipbpard (OSX)
 
