@@ -1,12 +1,17 @@
 {
 	"ImportPath": "github.com/Luzifer/redpaste",
-	"GoVersion": "go1.6",
+	"GoVersion": "go1.7",
 	"GodepVersion": "v74",
 	"Deps": [
 		{
 			"ImportPath": "github.com/Luzifer/rconfig",
 			"Comment": "v1.1.0",
 			"Rev": "c27bd3a64b5b19556914d9fec69922cf3852d585"
+		},
+		{
+			"ImportPath": "github.com/fsnotify/fsnotify",
+			"Comment": "v1.3.1-1-gf12c623",
+			"Rev": "f12c6236fe7b5cf6bcf30e5935d08cb079d78334"
 		},
 		{
 			"ImportPath": "github.com/mitchellh/go-homedir",
@@ -19,6 +24,10 @@
 		{
 			"ImportPath": "github.com/xuyu/goredis",
 			"Rev": "300f7e8cf453e2ea44337b3969d3aecf1a92ebe3"
+		},
+		{
+			"ImportPath": "golang.org/x/sys/unix",
+			"Rev": "8f0908ab3b2457e2e15403d3697c9ef5cb4b57a9"
 		},
 		{
 			"ImportPath": "gopkg.in/yaml.v2",
