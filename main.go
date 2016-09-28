@@ -121,8 +121,19 @@ func initConfig() {
 }
 
 func usage() {
-	fmt.Println("Usage: redpaste <set/get>")
-	fmt.Println("       redpaste <watch/edit> <file>")
+	fmt.Println(`Usage:
+  echo "Hello World" | redpaste set
+    Sets the string "Hello World" into the redpaste buffer
+
+  redpaste get
+    Gets the currenty content of the buffer and puts it to STDOUT
+
+  redpaste watch myresult.txt
+    Watches for changes in the buffer and writes them to /tmp/myfile as they occur
+
+  redpaste edit myfile.txt
+    Opens myfile.txt in $EDITOR and sets the contents of the file to the buffer on save
+	`)
 	os.Exit(1)
 }
 
